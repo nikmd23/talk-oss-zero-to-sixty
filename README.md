@@ -24,3 +24,7 @@ Outline for [my NDC talk](http://ndcoslo.oktaset.com/t-8116)
 
 ## Create Oppertunity
 - [Jump In](http://nikcodes.com/2013/05/10/new-contributor-jump-in/)
+
+## Resources
+- [Producing OSS by Karl Fogel](http://producingoss.com/) *(plus [2nd Edition Kickstarter](http://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed)!)*
+- [The Art of Community by Jono Bacon](http://www.artofcommunityonline.org/)

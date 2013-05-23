@@ -360,6 +360,11 @@ function linkify( selector ) {
 				]
 			});
 
+			Reveal.addEventListener('ready', function (event) {
+			    console.log('ready!');
+			    if (window.location.search.match(/print-pdf/gi))
+			        window.print();
+			});
 		</script>
 
 	</body>

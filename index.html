@@ -359,13 +359,6 @@ function linkify( selector ) {
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
-
-			Reveal.addEventListener('ready', function (event) {
-			    console.log('ready!');
-			    if (window.location.search.match(/print-pdf/gi))
-			        window.print();
-			});
 		</script>
-
 	</body>
 </html>

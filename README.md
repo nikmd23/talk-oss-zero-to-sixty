@@ -18,9 +18,10 @@ ___
   - Performing
   - [Icons](http://4.bp.blogspot.com/-ihTg3P3EfmE/TcmrBAwknxI/AAAAAAAAAAk/pgc4TZXcVik/s1600/Untitled.jpg) and [Instructional Chart](http://www.the-happy-manager.com/wp-content/uploads/tuckmangroupstagesmodel1.png)
 
-#### Forming
+#### 1 Forming
 
 ##### 1.1 Project Setup
+- <span style="background-color:red; color: white; font-weight: bold;">Double check Fogel's book.</span>
 
 ##### 1.2 Selecting a License
 - Proper Licenses from [OSI](http://opensource.org/) vs [Creative Commons](http://creativecommons.org/)
@@ -34,7 +35,7 @@ ___
   - *It is no surprise, therefore, that meritocratic project management committees and benevolent dictators both exercise their decision making power through loyalty rather than legalities. They all know that members are free to take the code and create alternative projects. In fact, this ability to fork is very important to the health of open source communities. This is because it ensures that those involved in project governance strive to make the right decisions for the community, rather than for a single individual or company.*
   - [YUI as an example](https://github.com/yui/yui3/wiki/Contributor-Model)
   
-#### Storming
+#### 2 Storming
 
 ##### 2.1 Communication
 - **Incoming**: Forums, Mailing Lists and Issue Tracker
@@ -47,7 +48,7 @@ ___
 ##### 2.3 Dealing w/ $$
 - Mix offer & why we really did Glimpse
 
-#### Norming
+#### 3 Norming
 
 ##### 3.1 Automate Everything
 - Including community management!
@@ -55,7 +56,10 @@ ___
   - StyleCop
   - Documentation, leveraging the wiki?
 
-#### Performing
+##### 3.2 Community Management
+- <span style="background-color:red; color: white; font-weight: bold;">Double check Bacon's book.</span>
+
+#### 4 Performing
 
 ##### 4.1 Sponsorship
 - TeamCity at CodeBetter

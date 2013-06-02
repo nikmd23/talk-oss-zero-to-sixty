@@ -82,7 +82,12 @@ emails are rambling and unstructured, people will assume that's the real you
   - Documentation, leveraging the wiki?
 
 ##### 3.2 Community Management
-- <span style="background-color:red; color: white; font-weight: bold;">Double check Bacon's book.</span>
+- <span style="background-color:red; color: white; font-weight: bold;">Double check Bacon's book. Fogel's book seems a bit more practical.</span>
+- Understand the motivations of your community.
+  - [Why Hackers Do What
+They Do: Understanding Motivation and Effort in Free/Open Source Software Projects on FLOSShub](http://flosshub.org/sites/flosshub.org/files/lakhaniwolf.pdf)
+- Treat Every User as a Potential Volunteer
+- Meeting In Person
 
 #### 4 Performing
 
@@ -91,6 +96,8 @@ emails are rambling and unstructured, people will assume that's the real you
 - RedGate
 - JetBrains
 - MyGet
+- GitHub
+- Atlassian
 
 ##### 4.2 Create Opportunity
 - [Jump In](http://nikcodes.com/2013/05/10/new-contributor-jump-in/)
@@ -110,7 +117,6 @@ emails are rambling and unstructured, people will assume that's the real you
 - [The Art of Community by Jono Bacon](http://www.artofcommunityonline.org/)
 - [Understanding Open Source & Free Software Licensing by Andrew St. Laurent](http://oreilly.com/openbook/osfreesoft/book/index.html)
 - [The Cathedral and the Bazaar by  Eric Raymond](http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
-- [Outercurve Foundation Blog](http://www.outercurve.org/Blogs)
 
 ## Random Notes
 

@@ -43,19 +43,305 @@
 					<p>
 						<small>By <a href="http://nikcodes.com">Nik Molnar</a> / <a href="http://twitter.com/nikmd23">@nikmd23</a></small>
 					</p>
+
+                    <aside class="notes">
+                        <h1>Keyboard shortcuts:</h1>
+                        <ul>
+                            <strong>F</strong> - Fullscreen
+                            <strong>.</strong> - Toggle Blank Screen
+                            <strong>Alt + Click</strong> - Zoom on element
+                            <strong>S</strong> - Presenter mode
+                            <strong>Esc</strong> - Overview mode
+                        </ul>
+                    </aside>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+					<h2>Who Am I?</h2>
+
+                    <q cite="Henry Ford">Coming together is a beginning; keeping together is progress; working together is success. - Henry Ford</q>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						<ul>
+                            <li>Who I am - quick introduction to who I am, what I do and my background.</li>
+                            <li>
+                                How I started in OSS - overview of the Glimpse story and the ensuing onslaught after the Hanselbump
+                                <ul>
+                                    <li>Video from Channel 9</li>
+                                    <li>Pictures from Mix</li>
+                                </ul>
+                            </li>
+                        </ul>
 					</aside>
 				</section>
+
+                <section>
+					<h2>Tuckman's Stages of Group Development</h2>
+					
+                    <ol>
+                        <span class="fragment fade-in"><li class="fragment fade-out">Forming</li></span>
+                        <span class="fragment fade-in"><li class="fragment fade-out">Storming</li></span>
+                        <span class="fragment fade-in"><li class="fragment fade-out">Norming</li></span>
+                        <span class="fragment fade-in"><li class="fragment fade-out">Performing</li></span>
+                    </ol>
+
+					<aside class="notes">
+						<ul>
+                            <li>
+                                Introduction to <a href="http://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development">Tuckman's Stages of Group Development</a>
+                                <ul>
+                                    <li>Forming</li>
+                                    <li>Storming</li>
+                                    <li>Norming</li>
+                                    <li>Performing</li>
+                                    <li><a href="http://4.bp.blogspot.com/-ihTg3P3EfmE/TcmrBAwknxI/AAAAAAAAAAk/pgc4TZXcVik/s1600/Untitled.jpg">Icons</a> and <a href="http://www.the-happy-manager.com/wp-content/uploads/tuckmangroupstagesmodel1.png">Instructional Chart</a></li>
+                                    <li>OSS is special because the team is constantly churning - so there are always people in each of these stages.</li>
+                                </ul>
+                            </li>
+                        </ul>
+					</aside>
+				</section>
+
+                <section>
+                    <section>
+                        <h2>Forming</h2>
+                    </section>
+
+                    <section>
+                        <h2>Project Setup</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Mission statement/readme.md that expresses the goals of the project and what it will/won't do</li>
+                                <li>Developer guidelines</li>
+                                <li>Demo/screenshots!</li>
+                                <li>
+                                    <em>Forkability</em> - the ease of which a developer <em>could</em> fork the project which also makes it easy for them to grab the code, build it and get started
+                                    <ul>
+                                        <li>Keep as many dependencies in source control/package restore as possible</li>
+                                        <li>Single command build process</li>
+                                        <li>Developer documentation</li>
+                                        <li>Forkability helps to ensure distributed leadership</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Selecting a License</h2>
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    Proper Licenses from <a href="http://opensource.org/">OSI</a> vs <a href="http://creativecommons.org/">Creative Commons</a>
+                                    <ul>
+                                        <li><a href="http://www.tldrlegal.com/">tl;dr Legal</a> provides great tools for selecting and understanding.</li>
+                                        <li>There is also <a href="http://i.stack.imgur.com/igJ6X.png">simple selection flowchart</a> vs <a href="http://cl.ly/5nAo">&quot;funny&quot; selection flowchart</a></li>
+                                        <li>Phil Haack's Developers Guide to Copyright Law <a href="http://haacked.com/archive/2006/01/24/TheDevelopersGuideToCopyrightLaw-Part1.aspx">Part 1</a>, <a href="http://haacked.com/archive/2006/01/24/DevelopersGuideToOpenSourceSoftwareLicensing.aspx">Part 2</a> &amp; <a href="http://haacked.com/archive/2006/01/26/WhoOwnstheCopyrightforAnOpenSourceProject.aspx">Part 3</a></li>
+                                        <li><span style="background-color:red; color: white; font-weight: bold;">How do CLA's fit in?</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Selecting a Governance Model</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    <a href="http://www.oss-watch.ac.uk/resources/meritocraticGovernanceModel">Meritocratic Governance Model</a> or <a href="http://www.oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel">benevolent dictator</a>.
+                                    <ul>
+                                        <li><em>It is no surprise, therefore, that meritocratic project management committees and benevolent dictators both exercise their decision making power through loyalty rather than legalities. They all know that members are free to take the code and create alternative projects. In fact, this ability to fork is very important to the health of open source communities. This is because it ensures that those involved in project governance strive to make the right decisions for the community, rather than for a single individual or company.</em></li>
+                                        <li><a href="https://github.com/yui/yui3/wiki/Contributor-Model">YUI as an example</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Storming</h2>
+                    </section>
+
+                    <section>
+                        <h2>Communication</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li><strong>Incoming</strong>: Forums, Mailing Lists and Issue Tracker</li>
+                                <li><strong>Outgoing</strong>: Blog and social media</li>
+                                <li><strong>Internal</strong>: HipChat, Trello and Skype</li>
+                                <li>Avoid private/internal communications</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>OSS/Life Balance</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Cute puppy syndrome from <a href="https://github.com/fat">@fat</a>'s <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CDAQtwIwAA&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUIDb6VBO9os&amp;ei=N8WbUfzCMvOz4APonICAAw&amp;usg=AFQjCNEjRH7wE1xfxuZUPgHJbiaDpvdRNg&amp;sig2=AfxZDLkpVzEYk1OeC5U0jg&amp;bvm=bv.46865395,d.dmg&amp;cad=rja">video</a></li>
+                            <ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Dealing w/ $$</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Mix offer &amp; why we really did Glimpse</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Nom de plume</h2>
+
+                        <img src="img/dog-on-the-internet-by-peter-steiner.jpg" />
+
+                        <aside class="notes">
+                            <ul>
+                                <li><strong>My story of having issues with Anthony</strong> - Even happy/nice emails have turned bad because of past carelessness. </li>
+                                <li>the only thing anyone knows about you on the Internet comes from what you write, or
+                                what others write about you. You may be brilliant, perceptive, and charismatic in person—but if your
+                                emails are rambling and unstructured, people will assume that's the real you</li>
+                                <li>
+                                    <a href="http://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog">On the Internet, nobody knows your a dog</a>
+                                    <ul>
+                                        <li>Your avatar and handle are your face - try to be consistent</li>
+                                        <li>User proper grammar, spelling and punctuation</li>
+                                        <li>Consider subject/title lines carefully</li>
+                                        <li>Use a diagram if it will help! (<a href="http://www.asciiflow.com/">AsciiFlow</a> &amp; <a href="http://www.websequencediagrams.com/">WebSequenceDiagrams</a>)</li>
+                                        <li>Provide context! Use a link to another thread or an issue . Make it easy for the reader</li>
+                                        <li>Edit twice for anything larger than a paragraph</li>
+                                        <li>Watch your tone</li>
+                                        <li><a href="http://www.stubbornella.org/content/2012/05/31/dont-feed-the-trolls/">Don't feed the trolls</a> by Nicole Sullivan</li>
+                                        <li>
+                                            Avoid bike shedding and holy wars
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law_of_triviality">Parkinson's Law of Triviality</a>: <q>the amount of noise generated by a change is inversely proportional to the complexity of the change</q>. a.k.a &quot;Bike shed&quot;. <a href="http://bikeshed.com/">Full article at bikeshed.com</a>
+
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Norming</h2>
+                    </section>
+
+                    <section>
+                        <h2>Automate Everything</h2>
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    Including community management!
+                                    <ul>
+                                        <li>CI/GitHub integration</li>
+                                        <li>StyleCop</li>
+                                        <li>Documentation, leveraging the wiki?</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Community Management</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li><span style="background-color:red; color: white; font-weight: bold;">Double check Bacon's book. Fogel's book seems a bit more practical.</span></li>
+                                <li>
+                                    Understand the motivations of your community.
+                                    <ul>
+                                        <li><a href="http://flosshub.org/sites/flosshub.org/files/lakhaniwolf.pdf">Why Hackers Do What
+                                        They Do: Understanding Motivation and Effort in Free/Open Source Software Projects on FLOSShub</a></li>
+                                    </ul>
+                                </li>
+                                <li>Treat Every User as a Potential Volunteer</li>
+                                <li>Meeting In Person</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h2>Performing</h2>
+                    </section>
+
+                    <section>
+                        <h2>Sponsorship</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>TeamCity at CodeBetter</li>
+                                <li>RedGate</li>
+                                <li>JetBrains</li>
+                                <li>MyGet</li>
+                                <li>GitHub</li>
+                                <li>Atlassian</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Create Opportunity</h2>
+
+                        <aside class="notes">
+                            <ul>
+                                <li><a href="http://nikcodes.com/2013/05/10/new-contributor-jump-in/">Jump In</a></li>
+                                <li>Automate standards enforcement </li>
+                                <li>Thank contributors as loudly as possible</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Not running a project?</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>Pay it forward. Can't contribute to project X? Give to project Y.</li>
+                            <li>
+                                Requirements
+                                <ol>
+                                    <li>Motivation to share</li>
+                                    <li>Ability to collaborate</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </aside>
+                </section>  
+
+                <section>
+                    <h2>Resources</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li><a href="http://producingoss.com/">Producing OSS by Karl Fogel</a> <em>(plus <a href="http://www.kickstarter.com/projects/kfogel/updating-producing-open-source-software-for-2nd-ed">2nd Edition Kickstarter</a>!)</em></li>
+                            <li><a href="http://www.artofcommunityonline.org/">The Art of Community by Jono Bacon</a></li>
+                            <li><a href="http://oreilly.com/openbook/osfreesoft/book/index.html">Understanding Open Source &amp; Free Software Licensing by Andrew St. Laurent</a></li>
+                            <li><a href="http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar by  Eric Raymond</a></li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>BUMPER!!!!</h2>
+                </section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
@@ -345,7 +631,7 @@ function linkify( selector ) {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [

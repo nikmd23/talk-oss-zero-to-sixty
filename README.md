@@ -22,7 +22,7 @@ ___
 #### 1 Forming
 
 ##### 1.1 Project Setup
-- Misson statement/readme.md that expresses the goals of the project and what it will/won't do
+- Mission statement/readme.md that expresses the goals of the project and what it will/won't do
 - Developer guidelines
 - Demo/screenshots!
 - *Forkability* - the ease of which a developer *could* fork the project which also makes it easy for them to grab the code, build it and get started

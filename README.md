@@ -8,6 +8,9 @@ ___
 
 ### Introduction
 - Who I am - quick introduction to who I am, what I do and my background.
+- I do OSS for a living, but I don't have everything figured out
+- Giving this talk because I wish I had it 2 years ago. Does not mane that your project will be successful or have a ton of users, but this should reduce pain in case that does happen - still be pragmatic.
+- Why are *you* in OSS? Linus law...
 - How I started in OSS - overview of the Glimpse story and the ensuing onslaught after the Hanselbump
   - Video from Channel 9
   - Pictures from Mix
@@ -21,7 +24,15 @@ ___
 
 #### 1 Forming
 
-##### 1.1 Project Setup
+##### 1.0 Selecting a License
+- Proper Licenses from [OSI](http://opensource.org/) vs [Creative Commons](http://creativecommons.org/)
+  - [tl;dr Legal](http://www.tldrlegal.com/) provides great tools for selecting and understanding.
+  - There is also [simple selection flowchart](http://i.stack.imgur.com/igJ6X.png) vs ["funny" selection flowchart](http://cl.ly/5nAo)
+  - Phil Haack's Developers Guide to Copyright Law [Part 1](http://haacked.com/archive/2006/01/24/TheDevelopersGuideToCopyrightLaw-Part1.aspx), [Part 2](http://haacked.com/archive/2006/01/24/DevelopersGuideToOpenSourceSoftwareLicensing.aspx) & [Part 3](http://haacked.com/archive/2006/01/26/WhoOwnstheCopyrightforAnOpenSourceProject.aspx)
+  - <span style="background-color:red; color: white; font-weight: bold;">How do CLA's fit in?</span>
+
+##### 1.2 Project Setup
+- *Whats your URL from Hanselman story*
 - Mission statement/readme.md that expresses the goals of the project and what it will/won't do
 - Developer guidelines
 - Demo/screenshots!
@@ -31,13 +42,6 @@ ___
  - Developer documentation
  - Forkability helps to ensure distributed leadership
 
-##### 1.2 Selecting a License
-- Proper Licenses from [OSI](http://opensource.org/) vs [Creative Commons](http://creativecommons.org/)
-  - [tl;dr Legal](http://www.tldrlegal.com/) provides great tools for selecting and understanding.
-  - There is also [simple selection flowchart](http://i.stack.imgur.com/igJ6X.png) vs ["funny" selection flowchart](http://cl.ly/5nAo)
-  - Phil Haack's Developers Guide to Copyright Law [Part 1](http://haacked.com/archive/2006/01/24/TheDevelopersGuideToCopyrightLaw-Part1.aspx), [Part 2](http://haacked.com/archive/2006/01/24/DevelopersGuideToOpenSourceSoftwareLicensing.aspx) & [Part 3](http://haacked.com/archive/2006/01/26/WhoOwnstheCopyrightforAnOpenSourceProject.aspx)
-  - <span style="background-color:red; color: white; font-weight: bold;">How do CLA's fit in?</span>
- 
 ##### 1.3 Selecting a Governance Model
 - [Meritocratic Governance Model](http://www.oss-watch.ac.uk/resources/meritocraticGovernanceModel) or [benevolent dictator](http://www.oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel).
   - *It is no surprise, therefore, that meritocratic project management committees and benevolent dictators both exercise their decision making power through loyalty rather than legalities. They all know that members are free to take the code and create alternative projects. In fact, this ability to fork is very important to the health of open source communities. This is because it ensures that those involved in project governance strive to make the right decisions for the community, rather than for a single individual or company.*
@@ -56,6 +60,7 @@ ___
 
 ##### 2.3 Dealing w/ $$
 - Mix offer & why we really did Glimpse
+  - Money is not evil. OSS and Money can and do go together. 
 
 ##### 2.4 Nom de plume
 - **My story of having issues with Anthony** - Even happy/nice emails have turned bad because of past carelessness. 
@@ -103,6 +108,9 @@ They Do: Understanding Motivation and Effort in Free/Open Source Software Projec
 - [Jump In](http://nikcodes.com/2013/05/10/new-contributor-jump-in/)
 - Automate standards enforcement 
 - Thank contributors as loudly as possible
+- *Story of Stephen's name on Hanselminutes*
+
+#### 5 Adjouring
 
 ### Conclusion
 
@@ -132,3 +140,4 @@ They Do: Understanding Motivation and Effort in Free/Open Source Software Projec
 - Cathedral and the Bazaar
 - Using semver.org (and semantic release notes?)
 - The [pull request hack](http://felixge.de/2013/03/11/the-pull-request-hack.html)?
+- Make sure to point out how this applies to other people besides just OSS project owners

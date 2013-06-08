@@ -1,4 +1,4 @@
-[![View Now](img/viewnow.png)](http://5minfork.com/nikmd23/oss0to60/)
+[![View Now](img/viewnow.png)](http://5minfork.com/nikmd23/oss0to60/) [![License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US)
 ___
 
 # Running OSS Projects: From Zero to Sixty 
@@ -75,7 +75,6 @@ emails are rambling and unstructured, people will assume that's the real you
   - Provide context! Use a link to another thread or an issue . Make it easy for the reader
   - Edit twice for anything larger than a paragraph
   - Watch your tone
-  - [Don't feed the trolls](http://www.stubbornella.org/content/2012/05/31/dont-feed-the-trolls/) by Nicole Sullivan
   - Avoid bike shedding and holy wars
 
 #### 3 Norming
@@ -125,6 +124,8 @@ They Do: Understanding Motivation and Effort in Free/Open Source Software Projec
 - [The Art of Community by Jono Bacon](http://www.artofcommunityonline.org/)
 - [Understanding Open Source & Free Software Licensing by Andrew St. Laurent](http://oreilly.com/openbook/osfreesoft/book/index.html)
 - [The Cathedral and the Bazaar by  Eric Raymond](http://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)
+- [Don't Feed the Trolls](http://www.stubbornella.org/content/2012/05/31/dont-feed-the-trolls/) by Nicole Sullivan
+- [How Open Source Projects Survive Poisonous People (And You Can Too)](http://www.youtube.com/watch?v=Q52kFL8zVoM) by Brian Fitzpatrick & Ben Collins-Sussman
 
 ## Random Notes
 

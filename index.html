@@ -126,14 +126,6 @@
 
                         <strong>TODO</strong>: Add <a href="http://4.bp.blogspot.com/-ihTg3P3EfmE/TcmrBAwknxI/AAAAAAAAAAk/pgc4TZXcVik/s1600/Untitled.jpg">Icons</a> and <a href="http://www.the-happy-manager.com/wp-content/uploads/tuckmangroupstagesmodel1.png">Instructional Chart</a>
 					</aside>
-                    <script>
-                        window.onload = function () {
-                            Reveal.addEventListener('fragmentshown', function (event) {
-                                if (event.fragment.parentNode.id === 'tuckmanOl')
-                                    document.getElementById('tuckmanImg').style.left = '0em';
-                            });
-                        };
-                    </script>
 				</section>
 
                 <section>
@@ -233,11 +225,39 @@
                     <section>
                         <h2>Communication</h2>
 
+                        <div id="comms" style="height:550px;">
+                            <div class="fragment fade-in">
+                                <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='1']">
+                                    <img src="img/incoming.png" class="plain" />
+                                    <h3>Incoming</h3>
+                                </div>
+                            </div>
+                            <div class="fragment fade-in">
+                                <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='3']">
+                                    <img src="img/outgoing.png" class="plain" />
+                                    <h3>Outgoing</h3>
+                                </div>
+                            </div>
+                            <div class="fragment fade-in">
+                                <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='5']">
+                                    <img src="img/internal.png" class="plain" />
+                                    <h3>Internal</h3>
+                                </div>
+                            </div>
+                        </div>
+
                         <aside class="notes">
                             <ul>
-                                <li><strong>Incoming</strong>: Forums, Mailing Lists and Issue Tracker</li>
-                                <li><strong>Outgoing</strong>: Blog and social media</li>
-                                <li><strong>Internal</strong>: HipChat, Trello and Skype</li>
+                                <li>Good and proper communication is the most important part of managing an OSS project. Lack of good communication can cause a project to break down and lose contributors. Communications can be broken into three channels.</li>
+
+                                <li><strong>Incoming</strong> from Forums, Mailing Lists, Issue Trackers, etc. Receiving and processing feedback and viewpoints for the purpose of improvement. An
+example of this could include surveys to determine how well a part of your community
+is working.</li>
+                                <li><strong>Outgoing</strong> to blogs and social media. Sharing news, stories, and achievements from the community with the rest of the world.
+An example of this could be showing off something your community has created.</li>
+                                <li><strong>Internal</strong> with HipChat, Trello and Skype should be used sparingly. Internal discussions and meetings in the community to discuss objectives, goals, conflict,
+and other issues. An example of this could include meetings that are designed to decide
+how your community will work together toward its goals.</li>
                                 <li>Avoid private/internal communications</li>
                             </ul>
                         </aside>
@@ -429,6 +449,7 @@
 
                 <section>
 					<h1>Thank You!</h1>
+
                     <img src="img/logo.png" class="plain"/>
 
                     <h3>resources & contribute @ <a href="http://osszerotosixty.com">osszerotosixty.com</a></h3>
@@ -476,6 +497,32 @@
 					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
 					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
+			});
+
+			Reveal.addEventListener('ready', function (event) {
+			    Reveal.addEventListener('fragmentshown', function (event) {
+			        // console.log('Added', event.fragment);
+			        if (event.fragment.style.display === 'none')
+			            event.fragment.style.display === 'block';
+
+                    // Handle Tuckman Animation
+			        if (event.fragment.parentNode.id === 'tuckmanOl')
+			            document.getElementById('tuckmanImg').style.left = '0em';
+
+			        // Handle "overwritting" fragments
+			        var toHide = event.fragment.getAttribute('data-replace');
+			        if (toHide)
+			            document.querySelector(toHide).style.display = 'none';
+                    
+			    });
+			    Reveal.addEventListener('fragmenthidden', function (event) {
+			        // console.log('Removed', event.fragment);
+
+			        // Undo "overwritting" fragments
+			        var toHide = event.fragment.getAttribute('data-replace');
+			        if (toHide)
+			            document.querySelector(toHide).style.display = 'block';
+			    });
 			});
 		</script>
 	</body>

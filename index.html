@@ -28,11 +28,28 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+        <style>
+            .license{
+                display: block;
+                bottom: 10px;
+                display: none;
+                position: fixed;
+                left: 10px;
+                z-index: 30;
+            }
+        </style>
 	</head>
 
-	<body style="background-color:black;">
+	<body>
 
 		<div class="reveal">
+
+        <aside class="license">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">
+                <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+            </a>
+        </aside>
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
@@ -52,7 +69,7 @@
                             <li><strong>.</strong> - Toggle Blank Screen</li>
                             <li><strong>Alt + Click</strong> - Zoom on element</li>
                             <li><strong>S</strong> - Presenter mode</li>
-                            <li>f<strong>Esc</strong> - Overview mode</li>
+                            <li><strong>Esc</strong> - Overview mode</li>
                         </ul>
                     </aside>
 				</section>
@@ -64,15 +81,15 @@
 
 					<aside class="notes">
 						<ul>
-                            <li>I am Nik Molnar, web dev of 16 years.</li>
+                            <li>My name is Nik Molnar. I live in NYC. I've been a web dev for a little over 16 years.</li>
                             <li>I do OSS for a living, but that does not mean I have all the answers. I'm trying to find my way like everyone else.</li>
-                            <li>Created this presentation because I wish I had it two years ago when we started the Glimpse project.</li>
+                            <li>Which is the reason I created this presentation. I wish I had it two years ago when we started the Glimpse project.</li>
                             <li>
                                 What is the Glimpse project?
                                 <ul>
                                     <li>Started to scratch an itch</li>
                                     <li>Gained popularity very quickly with a little help from a Hanselbump</li>
-                                    <li>100K downloads and counting</li>
+                                    <li>100K downloads and counting, a little over 40 contributors</li>
                                 </ul>
                             </li>
                         </ul>
@@ -236,12 +253,17 @@
                         </aside>
                     </section>
 
-                    <section>
-                        <h2>Dealing w/ $$</h2>
+                    <section data-state="money">
+                        <h2>Dealing w/ $$$</h2>
+
+                        <img src="img/money.jpg" />
 
                         <aside class="notes">
                             <ul>
-                                <li>Mix offer &amp; why we really did Glimpse</li>
+                                <li>Finances can be the biggest cause of strain on any relationship, including the relationship between an open source team.</li>
+                                <li>We were lucky with Glimpse because we were tested with money very early on.</li>
+                                <li>At Mix we were offered 10K to close and sell the source, which forced us to evaluate why we really did Glimpse.</li>
+                                <li>We decided to back pay our bills first, and spend anything left over on thank you swag for contributors</li>
                             </ul>
                         </aside>
                     </section>
@@ -301,21 +323,6 @@
                     </section>
 
                     <section>
-                        <h2>Sponsorship</h2>
-
-                        <aside class="notes">
-                            <ul>
-                                <li>TeamCity at CodeBetter</li>
-                                <li>RedGate</li>
-                                <li>JetBrains</li>
-                                <li>MyGet</li>
-                                <li>GitHub</li>
-                                <li>Atlassian</li>
-                            </ul>
-                        </aside>
-                    </section>
-
-                    <section>
                         <h2>Community Management</h2>
 
                         <aside class="notes">
@@ -330,6 +337,22 @@
                                 </li>
                                 <li>Treat Every User as a Potential Volunteer</li>
                                 <li>Meeting In Person</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h2>Sponsorship</h2>
+
+                        <img src="img/vendors.png" class="plain" />
+
+                        <h4>Find more <a href="https://github.com/nikmd23/osstoollist">OSS Sponsors</a></h4>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>While you may not have a company sponsoring all the costs to develop a project, once a project has reached the norming phase there are plenty that are willing to help.</li>
+                                <li>Leveraging the sponsorships that are out there feels a bit like being Tony Hawk coding around with these companies helping you to do what you do best.</li>
+                                <li>The Glimpse team leverages generous donations from these companies, but there are many more available with a listing on XYZ.com</li>
                             </ul>
                         </aside>
                     </section>
@@ -405,12 +428,23 @@
                 </section>
 
                 <section>
-                    <h2>Final Thoughts
-                    </h2>
-                    <ul>
-                        <li>Does not mean that your project will be successful or have a ton of users, but this should reduce pain in case that does happen - still be pragmatic.</li>
-                    </ul>
-                </section>
+					<h1>Thank You!</h1>
+                    <img src="img/logo.png" class="plain"/>
+
+                    <h3>resources & contribute @ <a href="http://osszerotosixty.com">osszerotosixty.com</a></h3>
+
+					<p>
+						<small><a href="http://nikcodes.com">Nik Molnar</a> / <a href="http://twitter.com/nikmd23">@nikmd23</a></small>
+					</p>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>This presentation can be found at ossZeroToSixty.com, feel free to re-present it to the developers in your life</li>
+                            <li>More info is available on the website</li>
+                            <li>It is open source in and of itself, so please contribute and lets get a quickstart guide for all developers</li>
+                        </ul>
+                    </aside>
+				</section>
 			</div>
 		</div>
 

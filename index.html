@@ -44,9 +44,9 @@
                 list-style-position: inside;
             }
 
-                .checklist li{
-                    padding:0.8em;
-                }
+            .checklist li{
+                padding:0.8em;
+            }
         </style>
 	</head>
 
@@ -74,7 +74,7 @@
                     <aside class="notes">
                         <h4>Keyboard shortcuts:</h4>
                         <ul>
-                            <li><strong>F</strong> - Fullscreen</li>
+                            <li><strong>F</strong> - Full screen</li>
                             <li><strong>.</strong> - Toggle Blank Screen</li>
                             <li><strong>Alt + Click</strong> - Zoom on element</li>
                             <li><strong>S</strong> - Presenter mode</li>
@@ -132,8 +132,6 @@
                             <li>Tuckman proposed that these phases are all necessary and inevitable in order for the team to grow, to face up to challenges, to tackle problems, to find solutions, to plan work, and to deliver results</li>
                             <li>OSS is special because the team is constantly churning - so there are always people in each of these stages.</li>
                         </ul>
-
-                        <strong>TODO</strong>: Add <a href="http://4.bp.blogspot.com/-ihTg3P3EfmE/TcmrBAwknxI/AAAAAAAAAAk/pgc4TZXcVik/s1600/Untitled.jpg">Icons</a> and <a href="http://www.the-happy-manager.com/wp-content/uploads/tuckmangroupstagesmodel1.png">Instructional Chart</a>
 					</aside>
 				</section>
 
@@ -141,12 +139,12 @@
                     <section>
                         <h1>Forming</h1>
 
+                        <img src="img/forming.png" class="plain"/>
+
                         <aside class="notes">
                             <p>While Forming, serious issues are avoided, and people focus on being busy with meta, such as team organization, who does what, where code exists, etc.</p>
 
                             <h3>GO DOWN!</h3>
-
-                            <strong>TODO: Add stage icon</strong>
                         </aside>    
                     </section>
 
@@ -161,15 +159,15 @@
                             <ul>
                                 <li>Selecting a license can be daunting. (Probably best not to create your own!) But it is important to set the tone for how the project can be used ASAP.</li>
                                 <li>1st release of Glimpse we chose a Creative Commons license - simply because we didn't know any better and they had a nice license landing page.</li>
-                                <li>Unfortunatly, as Phil Haack pointed out to us, CC licenses are better suited for content, and he sugested we take a look at Apache 2.</li>
+                                <li>Unfortunately, as Phil Haack pointed out to us, CC licenses are better suited for content, and he suggested we take a look at Apache 2.</li>
                                 <li>To figure out which license is right for you, be sure to select one from opensouce.org since their licenses all comply with the Open Source Definition.</li>
                                 <li>tldrlegal.com really comes in handy for gaining a quick overview of a licenses and for comparing a license</li>
                             </ul>
                             <ul>
                                 <li>Contributors License Agreements are another type of license you may want to consider for your project.</li>
-                                <li>CLA's are agreements that contributors to a project sign turning over their copywrite to the project</li>
+                                <li>CLA's are agreements that contributors to a project sign turning over their copy write to the project</li>
                                 <li>If you are asked to sign one, do not be alarmed - they are fairly common</li>
-                                <li>Glimpse has one, also at the suggestion of Phil Haack and it has served as well since RedGate asked about copywrite when they sponsored the project</li>
+                                <li>Glimpse has one, also at the suggestion of Phil Haack and it has served as well since Redgate asked about copy write when they sponsored the project</li>
                                 <li>CLA's are less organized/categorized than standard licenses, but typically come in flavors for individuals and corporations</li>
                                 <li>Try to use a CLA template like the one available from the Apache Foundation to simplify the process for contributors.</li>
                             </ul>
@@ -212,6 +210,21 @@
 
                     <section>
                         <h2>Selecting a Governance Model</h2>
+                        <div class="fragment">
+                            <img src="img/man_brown.png" class="fragment plain" style="margin-top:100px;"/>
+                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
+                            <img src="img/man_red.png" class="fragment plain"/>
+                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
+                            <img src="img/man_blue.png" class="fragment plain"/>
+                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
+                            <img src="img/man_grey.png" class="fragment plain"/>
+
+                            <h3 style="margin-top:100px;">Meritocratic Roles</h3>
+                        </div>
+                        <!--<div class="fragment fade-in">
+                            <h3>Meritocratic Decisions</h3>
+                        </div>-->
+
 
                         <aside class="notes">
                             <ul>
@@ -230,6 +243,8 @@
                     <section>
                         <h1>Storming</h1>
 
+                        <img src="img/storming.png" class="plain" />
+
                         <aside class="notes">
                              <p>OSS is built by humans, and as humans we will have conflicts. Ideas begin to compete with each other. Personalities (and egos!) begin to battle. Architectural challenges and bugs begin to crop up</p>
 
@@ -238,8 +253,6 @@
                             <p>The following outlines a few of the problems we had on the Glimpse project: consider them a warning signal to help you</p>
 
                             <h3>GO DOWN!</h3>
-
-                            <strong>TODO: Add stage icon</strong>
                         </aside>
                     </section>
 
@@ -247,19 +260,19 @@
                         <h2>Communication</h2>
 
                         <div id="comms" style="height:550px;">
-                            <div class="fragment fade-in">
+                            <div class="fragment fade">
                                 <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='1']">
                                     <img src="img/incoming.png" class="plain" />
                                     <h3>Incoming</h3>
                                 </div>
                             </div>
-                            <div class="fragment fade-in">
+                            <div class="fragment fade">
                                 <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='3']">
                                     <img src="img/outgoing.png" class="plain" />
                                     <h3>Outgoing</h3>
                                 </div>
                             </div>
-                            <div class="fragment fade-in">
+                            <div class="fragment fade">
                                 <div class="fragment fade-out" data-replace="#comms div[data-fragment-index='5']">
                                     <img src="img/internal.png" class="plain" />
                                     <h3>Internal</h3>
@@ -290,7 +303,7 @@ how your community will work together toward its goals.</li>
                         <aside class="notes">
                             <ul>
                                 <li>Cute puppy syndrome from <a href="https://github.com/fat">@fat</a>'s <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CDAQtwIwAA&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUIDb6VBO9os&amp;ei=N8WbUfzCMvOz4APonICAAw&amp;usg=AFQjCNEjRH7wE1xfxuZUPgHJbiaDpvdRNg&amp;sig2=AfxZDLkpVzEYk1OeC5U0jg&amp;bvm=bv.46865395,d.dmg&amp;cad=rja">video</a></li>
-                            <ul>
+                            </ul>
                         </aside>
                     </section>
 
@@ -310,6 +323,31 @@ how your community will work together toward its goals.</li>
                     </section>
 
                     <section>
+                        <h2>Nom de plume</h2>
+
+                        <img src="img/dog.jpg" />
+
+                        <aside class="notes">
+                            <ul>
+                                <li><strong>My story of having issues with Anthony</strong> - Even happy/nice emails have turned bad because of past carelessness. </li>
+                                <li>the only thing anyone knows about you on the Internet comes from what you write, or
+                                    what others write about you. You may be brilliant, perceptive, and charismatic in person—but if your
+                                    emails are rambling and unstructured, people will assume that's the real you</li>
+                                <li>
+                                    <ul>
+                                        <li>Your avatar and handle are your face - try to be consistent</li>
+                                        <li>User proper grammar, spelling and punctuation</li>
+                                        <li>Consider subject/title lines carefully</li>
+                                        <li>Use a diagram if it will help! (<a href="http://www.asciiflow.com/">AsciiFlow</a> &amp; <a href="http://www.websequencediagrams.com/">WebSequenceDiagrams</a>)</li>
+                                        <li>Provide context! Use a link to another thread or an issue . Make it easy for the reader</li>
+                                        <li>Watch your tone</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                    
+                    <section>
                         <h2>Avoid Bikeshedding</h2>
 
                         <video data-autoplay src="img/bikeshed.mp4" autoplay="autoplay" loop="true"></video>
@@ -325,42 +363,16 @@ how your community will work together toward its goals.</li>
                             </ul>
                         </aside>
                     </section>
-
-                    <section>
-                        <h2>Nom de plume</h2>
-
-                        <img src="img/dog.jpg" />
-
-                        <aside class="notes">
-                            <ul>
-                                <li><strong>My story of having issues with Anthony</strong> - Even happy/nice emails have turned bad because of past carelessness. </li>
-                                <li>the only thing anyone knows about you on the Internet comes from what you write, or
-                                what others write about you. You may be brilliant, perceptive, and charismatic in person—but if your
-                                emails are rambling and unstructured, people will assume that's the real you</li>
-                                <li>
-                                    <ul>
-                                        <li>Your avatar and handle are your face - try to be consistent</li>
-                                        <li>User proper grammar, spelling and punctuation</li>
-                                        <li>Consider subject/title lines carefully</li>
-                                        <li>Use a diagram if it will help! (<a href="http://www.asciiflow.com/">AsciiFlow</a> &amp; <a href="http://www.websequencediagrams.com/">WebSequenceDiagrams</a>)</li>
-                                        <li>Provide context! Use a link to another thread or an issue . Make it easy for the reader</li>
-                                        <li>Watch your tone</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </aside>
-                    </section>
                 </section>
                 <section>
                     <section>
                         <h1>Norming</h1>
 
+                        <img src="img/norming.png" class="plain" />
                         <aside class="notes">
                             <p>When teams are norming the have a clear goal and a mutal agreement for the plan of execution.</p>
 
                             <h3>GO DOWN!</h3>
-
-                            <strong>TODO: Add stage icon</strong>
                         </aside>
                     </section>
 
@@ -388,7 +400,7 @@ how your community will work together toward its goals.</li>
 
                         <img src="img/vendors.png" class="plain" />
 
-                        <h4>Find more <a href="https://ossperks.com">OSSPerks.com</a></h4>
+                        <h3>Find more <a href="https://ossperks.com">OSSPerks.com</a></h3>
 
                         <aside class="notes">
                             <ul>
@@ -404,12 +416,12 @@ how your community will work together toward its goals.</li>
                     <section>
                         <h1>Performing</h1>
 
+                        <img src="img/performing.png" class="plain" />
+
                         <aside class="notes">
                             <p>When a team is performing, the individuals function as a unit without the need for heavy management oversight.</p>
 
                             <h3>GO DOWN!</h3>
-
-                            <strong>TODO: Add stage icon</strong>
                         </aside>
                     </section>
 
@@ -421,10 +433,10 @@ how your community will work together toward its goals.</li>
                         <aside class="notes">
                             <ul>
                                 <li>Managing your project and the project's community takes time. Lot's of time. Simplify your life and let the robots help you</li>
-                                <li>This is where perks really start to shine: enforce build and test proceedures with a CI server</li>
+                                <li>This is where perks really start to shine: enforce build and test procedures with a CI server</li>
                                 <li>Enforce style and naming conventions automatically instead of with a document via tools like StyleCop</li>
                                 <li>Auto test pull requests and leverage <a href="https://github.com/blog/1227-commit-status-api">GitHub's commit status API</a> - built into TeamCity and TravisCI</li>
-                                <li>Story of how user's automatically fix pull requests now without our involvment</li>
+                                <li>Story of how user's automatically fix pull requests now without our involvement</li>
                                 <li>Automation can also be as simple as opening up your documentation contribution process. We leverage Glimpse's GitHub wiki repo as a subrepo on the website to allow users to directly contribute docs without the need for a pull request. Documentation contributions have tripled since we've done this.</li>
                             </ul>
                         </aside>
@@ -453,7 +465,7 @@ how your community will work together toward its goals.</li>
                                     </ul>
                                 </li>
                                 <li>Thank contributors as loudly as possible</li>
-                                <li>In the same vein to make things easier for new contributors, thanks those who have comepleted work as loudly as possible</li>
+                                <li>In the same vein to make things easier for new contributors, thanks those who have completed work as loudly as possible</li>
                                 <li>Story of thanking guys on podcasts</li>
                             </ul>
                         </aside>
@@ -481,11 +493,11 @@ how your community will work together toward its goals.</li>
 
                     <img src="img/ford.jpg" />
 
-                    <blockquote cite="Henry Ford">Coming together is a beginning; keeping together is progress; working together is success.</blockquote>
+                    <blockquote cite="http://en.wikipedia.org/wiki/Henry_Ford">Coming together is a beginning; keeping together is progress; working together is success.</blockquote>
 
                     <aside class="notes">
                         <p>In closing, I wanted to leave you with this inspiring picture of Henry Ford and Thomas Edison together, and Ford's words:</p>
-                        <p>Any questions? Any answers? This is really meant to be the begining of a conversation - I'm hear to learn just as much as you are.</p>
+                        <p>Any questions? Any answers? This is really meant to be the beginning of a conversation - I'm hear to learn just as much as you are.</p>
                     </aside>
                 </section>
 
@@ -494,7 +506,7 @@ how your community will work together toward its goals.</li>
 
                     <img src="img/logo.png" class="plain" style="vertical-align: middle;"/>
 
-                    <ul class="plain">
+                    <ul class="plain" style="position: relative; top: 100px;">
                         <li>
                             <small>
                                 <img src="img/cclicsmall.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
@@ -503,23 +515,30 @@ how your community will work together toward its goals.</li>
                         </li>
                         <li>
                             <small>
-                                <img src="http://i.creativecommons.org/l/by-nc/2.0/80x15.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
-                                <a href="http://www.flickr.com/photos/marine_corps/6922186029/sizes/l/" target="_blank">Jump In</a> by 
+                                <img src="img/ccby-nc.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
+                                <a href="http://www.flickr.com/photos/marine_corps/6922186029/sizes/l/">Jump In</a> by 
                                 <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.flickr.com/people/marine_corps/">US Marine Corps</a>
                             </small>
                         </li>
                         <li>
                             <small>
-                                <img src="http://i.creativecommons.org/l/by-sa/2.0/80x15.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
+                                <img src="img/ccby-sa.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
                                 <a href="http://www.flickr.com/photos/68751915@N05/6355345927/sizes/l/">Money</a> by 
                                 <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.flickr.com/people/68751915@N05/">401(K) 2013</a>
                             </small>
                         </li>
                         <li>
                             <small>
-                                <img src="http://i.creativecommons.org/l/by-nc-sa/2.0/80x15.png" class="plain" style="vertical-align: baseline;">&nbsp;
+                                <img src="img/ccby-nc-sa.png" class="plain" style="vertical-align: baseline;">&nbsp;
                                 <a href="http://www.flickr.com/photos/traftery/3986446967/sizes/l/">Ford & Edison</a> by 
                                 <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.flickr.com/people/traftery/">Tom Raftery</a>
+                            </small>
+                        </li>
+                        <li>
+                            <small>
+                                <img src="img/ccby-nc.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
+                                Office Men Icons by 
+                                <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.dapino-colada.nl/">DaPino Colada</a>
                             </small>
                         </li>
                     </ul>
@@ -534,7 +553,7 @@ how your community will work together toward its goals.</li>
                         <ul>
                             <li>This presentation can be found at ossZeroToSixty.com, feel free to re-present it to the developers in your life</li>
                             <li>More info is available on the website</li>
-                            <li>It is open source in and of itself, so please contribute and lets get a quickstart guide for all developers</li>
+                            <li>It is open source in and of itself, so please contribute and lets get a quick start guide for all developers</li>
                         </ul>
                     </aside>
 				</section>
@@ -571,11 +590,11 @@ how your community will work together toward its goals.</li>
 				]
 			});
 
-			Reveal.addEventListener('ready', function (event) {
+			Reveal.addEventListener('ready', function () {
 			    Reveal.addEventListener('fragmentshown', function (event) {
 			        // console.log('Added', event.fragment);
 			        if (event.fragment.style.display === 'none')
-			            event.fragment.style.display === 'block';
+			            event.fragment.style.display = 'block';
 
                     // Handle Tuckman Animation
 			        if (event.fragment.parentNode.id === 'tuckmanOl')

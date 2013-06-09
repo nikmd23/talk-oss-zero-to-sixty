@@ -38,6 +38,15 @@
                 left: 10px;
                 z-index: 30;
             }
+
+            .checklist{
+                list-style-image:url('img/tick.png'); 
+                list-style-position: inside;
+            }
+
+                .checklist li{
+                    padding:0.8em;
+                }
         </style>
 	</head>
 
@@ -170,17 +179,29 @@
                     <section>
                         <h2>Project Setup</h2>
 
+                        <ul class="checklist">
+                            <li class="fragment">Website</li>
+                            <li class="fragment">Mission Statement</li>
+                            <li class="fragment">Contributor Guidelines</li>
+                            <li class="fragment">Screenshot/Demo</li>
+                            <li class="fragment">Consider Forkability</li>
+                        </ul>
+
                         <aside class="notes">
                             <ul>
-                                <li>Hanselman website story</li>
+                                <li>We learned this lesson the hard way from Scott Hanselman. Tell website story</li>
                                 <li>Mission statement/readme.md that expresses the goals of the project and what it will/won't do</li>
-                                <li>Developer guidelines</li>
+                                <li>scriptcs has a nice simple mission statement: <q>scriptcs makes it easy to write and execute C# with a simple text editor</q></li>
+                                <li>Contributor guidelines</li>
                                 <li>Demo/screenshots!</li>
+                                <li>YouTube video of Glimpse had 50K views</li>
                                 <li>
-                                    <em>Forkability</em> - the ease of which a developer <em>could</em> fork the project which also makes it easy for them to grab the code, build it and get started
+                                    <em>Forkability</em> - the ease of which a developer <em>could</em> fork the project which also makes it easy for them to grab the code, build it and get started. How long does it take to get a new contributor up and running.
+
                                     <ul>
                                         <li>Keep as many dependencies in source control/package restore as possible</li>
                                         <li>Single command build process</li>
+                                        <li>Built in samples</li>
                                         <li>Developer documentation</li>
                                         <li>Forkability helps to ensure distributed leadership</li>
                                     </ul>
@@ -310,8 +331,6 @@ how your community will work together toward its goals.</li>
 
                         <img src="img/dog.jpg" />
 
-                        <p><small>&copy; The New Yorker Collection 1993 Peter Steiner</small></p>
-
                         <aside class="notes">
                             <ul>
                                 <li><strong>My story of having issues with Anthony</strong> - Even happy/nice emails have turned bad because of past carelessness. </li>
@@ -319,16 +338,13 @@ how your community will work together toward its goals.</li>
                                 what others write about you. You may be brilliant, perceptive, and charismatic in person—but if your
                                 emails are rambling and unstructured, people will assume that's the real you</li>
                                 <li>
-                                    <a href="http://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog">On the Internet, nobody knows your a dog</a>
                                     <ul>
                                         <li>Your avatar and handle are your face - try to be consistent</li>
                                         <li>User proper grammar, spelling and punctuation</li>
                                         <li>Consider subject/title lines carefully</li>
                                         <li>Use a diagram if it will help! (<a href="http://www.asciiflow.com/">AsciiFlow</a> &amp; <a href="http://www.websequencediagrams.com/">WebSequenceDiagrams</a>)</li>
                                         <li>Provide context! Use a link to another thread or an issue . Make it easy for the reader</li>
-                                        <li>Edit twice for anything larger than a paragraph</li>
                                         <li>Watch your tone</li>
-                                        <li><a href="http://www.stubbornella.org/content/2012/05/31/dont-feed-the-trolls/">Don't feed the trolls</a> by Nicole Sullivan</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -383,6 +399,7 @@ how your community will work together toward its goals.</li>
                         </aside>
                     </section>
                 </section>
+
                 <section>
                     <section>
                         <h1>Performing</h1>
@@ -523,13 +540,6 @@ how your community will work together toward its goals.</li>
 				</section>
 			</div>
 		</div>
-
-        <!-- 
-            http://www.flickr.com/photos/marine_corps/6922186029/sizes/l/
-            http://www.flickr.com/photos/68751915@N05/6355345927/sizes/l/
-            logo @headloose
-            http://www.flickr.com/photos/traftery/3986446967/sizes/l/
-             -->
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>

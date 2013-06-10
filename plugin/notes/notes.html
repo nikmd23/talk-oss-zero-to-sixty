@@ -12,8 +12,9 @@
 
 			#notes {
 				font-size: 14px;
-				width: 640px;
+				width: 475px;
 				margin-top: 5px;
+			    float: right;
 			}
 
 			#wrap-current-slide {
@@ -99,7 +100,7 @@
 			.time {
 				width: 448px;
 				margin: 30px 0 0 10px;
-				float: left;
+				/*float: left;*/
 				text-align: center;
 				opacity: 0;
 
@@ -141,12 +142,14 @@
 			<script>document.write( '<iframe width="1280" height="1024" id="current-slide" src="'+ window.opener.location.href +'"></iframe>' );</script>
 		</div>
 
-		<div id="wrap-next-slide" class="slides">
-			<script>document.write( '<iframe width="640" height="512" id="next-slide" src="'+ window.opener.location.href +'"></iframe>' );</script>
-			<span>UPCOMING:</span>
-		</div>
+	    <div id="wrap-next-slide" class="slides">
+            <script>document.write( '<iframe width="640" height="512" id="next-slide" src="'+ window.opener.location.href +'"></iframe>' );</script>
+            <span>UPCOMING:</span>
+        </div>
 
-		<div class="time">
+	    <div id="notes"></div>
+        
+        <div class="time">
 			<div class="clock">
 				<h2>Time</h2>
 				<span id="clock">0:00:00 AM</span>
@@ -157,9 +160,9 @@
 			</div>
 		</div>
 
-		<div id="notes"></div>
+	    
 
-		<script src="../../plugin/markdown/marked.js"></script>
+	    <script src="../../plugin/markdown/marked.js"></script>
 		<script>
 
 			window.addEventListener( 'load', function() {

@@ -56,7 +56,7 @@
 
         <aside class="license">
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">
-                <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+                <img alt="Creative Commons License" src="img/cclic.png" />
             </a>
         </aside>
 
@@ -210,32 +210,37 @@
 
                     <section>
                         <h2>Selecting a Governance Model</h2>
-                        <div class="fragment">
-                            <img src="img/man_brown.png" class="fragment plain" style="margin-top:100px;"/>
-                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
-                            <img src="img/man_red.png" class="fragment plain"/>
-                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
-                            <img src="img/man_blue.png" class="fragment plain"/>
-                            <img src="img/arrow.png" class="fragment plain" style="vertical-align: super;"/>
-                            <img src="img/man_grey.png" class="fragment plain"/>
+                        <div class="fragment fade">
+                            <img src="img/man_brown.png" class="fragment fade plain" style="margin-top:100px;"/>
+                            <img src="img/arrow.png" class="fragment fade plain" style="vertical-align: super;"/>
+                            <img src="img/man_red.png" class="fragment fade plain"/>
+                            <img src="img/arrow.png" class="fragment fade plain" style="vertical-align: super;"/>
+                            <img src="img/man_blue.png" class="fragment fade plain"/>
+                            <img src="img/arrow.png" class="fragment fade plain" style="vertical-align: super;"/>
+                            <img src="img/man_grey.png" class="fragment fade plain"/>
 
                             <h3 style="margin-top:100px;">Meritocratic Roles</h3>
                         </div>
-                        <!--<div class="fragment fade-in">
-                            <h3>Meritocratic Decisions</h3>
-                        </div>-->
-
 
                         <aside class="notes">
                             <ul>
-                                <li>
-                                    <a href="http://www.oss-watch.ac.uk/resources/meritocraticGovernanceModel">Meritocratic Governance Model</a> or <a href="http://www.oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel">benevolent dictator</a>.
-                                    <ul>
-                                        <li><em>It is no surprise, therefore, that meritocratic project management committees and benevolent dictators both exercise their decision making power through loyalty rather than legalities. They all know that members are free to take the code and create alternative projects. In fact, this ability to fork is very important to the health of open source communities. This is because it ensures that those involved in project governance strive to make the right decisions for the community, rather than for a single individual or company.</em></li>
-                                        <li><a href="https://github.com/yui/yui3/wiki/Contributor-Model">YUI as an example</a></li>
-                                    </ul>
-                                </li>
+                                <li>Defining a governance models for a project is important to help orient users with the way to interact with given project</li>
+                                <li>There are many different governance models, mostly ad hoc, and two particularly famous ones: benevolent dictator and meritocratic method</li>
+                                <li>Beneveloent dictator is the model that Linus Torvolds and the Linux team leverage. I personally am not a huge fan of this model, but it clearly does work</li>
+                                <li>For today I am going to focus on the meritocratic method, because thats the one I have experience with</li>
+                                <li>I though I knew what the meritocratic method was since so many project claim that they work in tht model - but I was shocked to find that there is well written governance documents by OSS-Watch which explains all the ins and outs in full details</li>
+                                <li>I'm going to quickly recap by covering the Roles and decision making process</li>
                             </ul>
+                            Roles:
+                            <ul>
+                                <li>Users are community members who have a need for the project. They are the most important members of the community and without them the project would have no purpose. Anyone can be a user; there are no special requirements. Users provide feedback, word of mouth evengelism, moral and sometimes financial support.</li>
+                                <li>Contributors are community members who contribute in concrete ways to the project. Anyone can become a contributor, and contributions can take many forms such as support, reporting bugs, identifying requirements, providing graphics and web design, writing documentation, fixing bugs, adding features</li>
+                                <li>Committers are community members who have shown that they are committed to the continued development of the project through ongoing engagement with the community. Committership allows contributors to more easily carry on with their project related activities by giving them direct access to the project’s resources. That is, they can make changes directly to project outputs, without having to submit changes via patches. A committer seeks approval after the contribution is made, rather than before. They must be nominated.</li>
+                                <li>Reviewers consists of those individuals identified as ‘project owners’. The reviewers have additional responsibilities over and above those of a committer. These responsibilities ensure the smooth running of the project. Reviewers are expected to review code contributions, participate in strategic planning, approve changes to the governance model and manage the copyrights within the project outputs. They must be nominated.</li>
+                            </ul>
+                            
+                            <p>A meritocracy is not a democracy; that is, not everyone has a binding vote. Only those who have earned it through positive contribution to the project have a binding vote.</p>
+                            <p>There are a ful set of rules for which decisions require which type of vote when a concensus can't be naturally acheived - check them out on OSS Watch</p>
                         </aside>
                     </section>
                 </section>
@@ -282,31 +287,18 @@
 
                         <aside class="notes">
                             <ul>
+                                <li>Move users from twitter to StackOverflow</li>
                                 <li>Good and proper communication is the most important part of managing an OSS project. Lack of good communication can cause a project to break down and lose contributors. Communications can be broken into three channels.</li>
 
                                 <li><strong>Incoming</strong> from Forums, Mailing Lists, Issue Trackers, etc. Receiving and processing feedback and viewpoints for the purpose of improvement. An
-example of this could include surveys to determine how well a part of your community
-is working.</li>
+                                    example of this could include surveys to determine how well a part of your community
+                                    is working.</li>
                                 <li><strong>Outgoing</strong> to blogs and social media. Sharing news, stories, and achievements from the community with the rest of the world.
-An example of this could be showing off something your community has created.</li>
+                                    An example of this could be showing off something your community has created.</li>
                                 <li><strong>Internal</strong> with HipChat, Trello and Skype should be used sparingly. Internal discussions and meetings in the community to discuss objectives, goals, conflict,
-and other issues. An example of this could include meetings that are designed to decide
-how your community will work together toward its goals.</li>
+                                    and other issues. An example of this could include meetings that are designed to decide
+                                    how your community will work together toward its goals.</li>
                                 <li>Avoid private/internal communications</li>
-                            </ul>
-                        </aside>
-                    </section>
-
-                    <section>
-                        <h2>OSS/Life Balance</h2>
-                        
-                        <img src="img/cigar.jpg" />
-
-                        <aside class="notes">
-                            <ul>
-                                <li>Congrats - you have a new baby boy for a project. You're so proud, people are using it and it's going to be awesome.</li>
-                                <li>People use this analogy of the "parents" of a project, and there is a lot of pressure to fix bugs, support users, grow community, make it better, etc</li>
-                                <li>I just want to remind you that OSS isn't life. There are more important things out there. Don't take yourself so seriously.</li>
                             </ul>
                         </aside>
                     </section>
@@ -367,6 +359,30 @@ how your community will work together toward its goals.</li>
                             </ul>
                         </aside>
                     </section>
+                    
+                    <section>
+                        <h2>OSS/Life Balance</h2>
+                        
+                        <img src="img/cigar.jpg" />
+
+                        <aside class="notes">
+                            <del>
+                                I don't have a clever well thought out approach here. I'm just being honest and wanted to leave you with encouragment.
+
+                                The number of issues in a project's bug tracker grows in proportion to the number of people using the
+                                software. Therefore, even as you fix bugs and ship an increasingly robust program, you should still
+                                expect the number of open issues to grow essentially without bound.
+                                
+                                What does it mean to miss a deadline?
+                            </del>
+
+                            <ul>
+                                <li>Congrats - you have a new baby boy for a project. You're so proud, people are using it and it's going to be awesome.</li>
+                                <li>People use this analogy of the "parents" of a project, and there is a lot of pressure to fix bugs, support users, grow community, make it better, etc</li>
+                                <li>I just want to remind you that OSS isn't life. There are more important things out there. Don't take yourself so seriously.</li>
+                            </ul>
+                        </aside>
+                    </section>
                 </section>
                 <section>
                     <section>
@@ -382,18 +398,16 @@ how your community will work together toward its goals.</li>
 
                     <section>
                         <h2>Community Management</h2>
+                        
+                        <img src="img/cats.jpg" />
 
                         <aside class="notes">
                             <ul>
-                                <li><span style="background-color:red; color: white; font-weight: bold;">Double check Bacon's book. Fogel's book seems a bit more practical.</span></li>
-                                <li>
-                                    Understand the motivations of your community.
-                                    <ul>
-                                        <li><a href="http://flosshub.org/sites/flosshub.org/files/lakhaniwolf.pdf">Why Hackers Do What
-                                        They Do: Understanding Motivation and Effort in Free/Open Source Software Projects on FLOSShub</a></li>
-                                    </ul>
-                                </li>
+                                <li>Once the project has gotten setup and gone through its first round of problems, the software will because easier and the people managment will be come more challenging</li>
                                 <li>Treat Every User as a Potential Volunteer</li>
+                                <li>To manage the community, you want to keep in mind two things: focus and attention</li>
+                                <li>Focus the community to be working on the task at hand. Defining milestones helps with this.</li>
+                                <li>Bring attention to the focused efforts of the community. We like to do this with town hall meetings on Google Hangouts where we ask contributors to show off their recent work</li>
                                 <li>Meeting In Person</li>
                             </ul>
                         </aside>
@@ -477,22 +491,6 @@ how your community will work together toward its goals.</li>
                 </section>
 
                 <section>
-                    <h2>Not running a project?</h2>
-                    <aside class="notes">
-                        <ul>
-                            <li>Pay it forward. Can't contribute to project X? Give to project Y.</li>
-                            <li>
-                                Requirements
-                                <ol>
-                                    <li>Motivation to share</li>
-                                    <li>Ability to collaborate</li>
-                                </ol>
-                            </li>
-                        </ul>
-                    </aside>
-                </section>  
-
-                <section>
                     <h2>Questions? Answers?</h2>
 
                     <img src="img/ford.jpg" />
@@ -543,6 +541,13 @@ how your community will work together toward its goals.</li>
                                 <img src="img/ccby-nc.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
                                 Office Men Icons by 
                                 <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.dapino-colada.nl/">DaPino Colada</a>
+                            </small>
+                        </li>
+                        <li>
+                            <small>
+                                <img src="img/ccby.png" class="plain" style="vertical-align: baseline;"/>&nbsp;
+                                <a href="http://www.flickr.com/photos/ceardach/4549876293/sizes/l/">Cats</a> by 
+                                <a xmlns:cc="http://creativecommons.org/ns#" rel="cc:attributionURL" property="cc:attributionName" href="http://www.flickr.com/people/ceardach/">muir.ceardach</a>
                             </small>
                         </li>
                     </ul>

@@ -50,17 +50,17 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #121121 url(../images/bg.png);
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
 }
 
 a {
-  color: #d5000d;
+  color: #006400;
 }
 a:hover {
-  color: #c5000c;
+  color: #008000;
 }
 
 header {
@@ -85,7 +85,7 @@ header h2 {
 }
 
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 repeat-y;
   min-height: 595px;
 }
 
@@ -117,7 +117,7 @@ a.button {
   padding: 12px 8px 12px 8px;
   display: block;
   float: left;
-  width: 179px;
+  width: 140px;
   margin-right: 14px;  
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -152,6 +152,10 @@ a.button span {
   height: 23px;
 }
 
+
+#view span {
+  background: transparent url(../images/eye.png) 12px 50% no-repeat;
+}
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
@@ -252,7 +256,7 @@ h2 {
 } 
 
 h3 {
-  color: #d5000d;
+  color: #006400;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -288,7 +292,7 @@ p a {
 }
 
 blockquote {
-  font-size: 1.6em;
+  font-size: 0.8em;
   border-left: 10px solid #e9e9e9;
   margin-bottom: 20px;
   padding: 0 0 0 30px;

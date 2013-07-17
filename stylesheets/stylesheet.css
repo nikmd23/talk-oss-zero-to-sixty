@@ -116,9 +116,8 @@ a.button {
   line-height: 25px;
   font-weight: bold;
   font-size: 15px;
-  padding: 12px 8px 12px 8px;
+  padding: 12px 14px 12px 8px;
   display: inline-block;
-  width: 140px;
   margin: 4px;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -154,8 +153,11 @@ a.button span {
 }
 
 
-#view span {
-  background: transparent url(../images/eye.png) 12px 50% no-repeat;
+#present span {
+  background: transparent url(../images/image.png) 12px 50% no-repeat;
+}
+#watch span {
+  background: transparent url(../images/television.png) 12px 50% no-repeat;
 }
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
